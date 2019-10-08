@@ -47,8 +47,7 @@ class CustomView extends View {
         p.setColor(Color.DKGRAY);
         canvas.drawRect(rect,p);
         canvas.drawBitmap(bmp,5,5,p);
-    }
-}
+
         for(int i = 0; i<10; i++){
             Paint p2 = new Paint();
             p2.setStyle(Style.FILL);  //Styleを設定：塗りつぶす
